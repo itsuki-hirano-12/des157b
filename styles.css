@@ -11,9 +11,11 @@ img {
 
 /* Page styling */
 body {
-    background-color: #333;
+    background-color: #3E3E3E;
     color: rgb(235, 235, 235);
     transition: all 2s;
+    font-family: "Comme", sans-serif;
+    font-weight: 400;
 }
 
 body.switch {
@@ -33,6 +35,8 @@ body.switch {
 
 header {
     margin: 0 auto 2em auto;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
 }
 
 #banner {
@@ -102,27 +106,61 @@ section.switch a:hover {
     color: rgb(235, 235, 235);
 }
 
-button {
+#buttonContainer {
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 12px;
-    background-color: orange;
-    color: #333;
+    background-color: #4F65A1;
+    width: 200px;
+    height: 80px;
+    border-radius: 85px;
+    /* display: flex; */
+}
+
+button {
+    padding: 5px;
+    background-color: #B5B5B5;
     border: 1px solid transparent;
+    width: 190px;
+    height: 70px;
+    border-radius: 85px;
+    /* align-self: center;
+    margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    overflow: hidden;
 }
 
 button:hover {
-    background-color: coral;
+    background-color: #BBD8FF;
     cursor: pointer;
 }
 
 button.switch {
-    background-color: rgb(235, 235, 235);
-    border-color: #333;
+    background-color: #BBD8FF;
 }
 
 button.switch:hover {
-    background-color: #333;
-    color: rgb(235, 235, 235)
+    background-color: #9dbde7;
+}
+
+button img {
+    transition: transform 1s ease-out;
+}
+
+#brella {
+    /* margin: 0;
+    padding: 0; */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#sun {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transform: translateX(50%) translateY(-100%);
 }
