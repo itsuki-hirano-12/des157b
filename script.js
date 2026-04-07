@@ -46,10 +46,7 @@
         }
     }
 
-    function rain(){
-        
-        
-        
+    function rain(){    
         // let rainCount = 0;
         rainPosition = [];
         // addRain(rainCount);
