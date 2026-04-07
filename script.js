@@ -7,7 +7,10 @@
     const sections = document.querySelectorAll('section');
     const brella = document.querySelector('#brella');
     const sun = document.querySelector('#sun');
+    const background = document.querySelector('#background');
     let mode = 'dark';
+    let rainPosition;
+    rain();
 
     button.addEventListener('click', function() {
         if (mode === 'dark') {
@@ -18,6 +21,7 @@
                 section.className = 'switch';
             }
             changeButton();
+            background.innerHTML = '';
             mode = 'light';
         } else {
             body.removeAttribute('class');
@@ -27,6 +31,7 @@
                 section.removeAttribute('class');
             }
             changeButton();
+            rain();
             mode = 'dark'
         }
     })
@@ -39,5 +44,22 @@
             sun.style.transform = 'translateX(50%) translateY(-100%)';
             brella.style.transform = 'translateY(0)';
         }
+    }
+
+    function rain(){
+        
+        
+        
+        // let rainCount = 0;
+        rainPosition = [];
+        // addRain(rainCount);
+
+        for (let i=0; i < 50; i++) {
+            rainPosition[i] = Math.floor(Math.random() * 100);
+            background.innerHTML += `<div class='rain${i}'></div>`;
+            document.querySelector(`.rain${i}`).style.left = `${rainPosition[i]}%`;
+            document.querySelector(`.rain${i}`).style.animationDelay = `calc(${i} * 0.678s)`;
+        }
+
     }
 })()
