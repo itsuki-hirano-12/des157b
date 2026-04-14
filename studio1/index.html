@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Blockbuster Video</title>
+    
+</head>
+<body class="small">
+        <section>
+            <video id="empty" class="showing" muted loop autoplay playsinline>
+                <source src="media/empty.MOV" type="video/webm">
+                <source src="media/empty.mp4" type="video/mp4">
+
+                <p>Your brower doesn't supoort HTML5 video. Here is a <a href="media/empty.mp4">link to the video</a> instead.</p>
+            </video>
+
+            <video id="full" class="hidden" muted loop autoplay playsinline>
+                <source src="media/full.mov" type="video/webm">
+                <source src="media/full.mp4" type="video/mp4">
+
+                <p>Your brower doesn't supoort HTML5 video. Here is a <a href="media/empty.mp4">link to the video</a> instead.</p>
+            </video>
+
+        </section>
+            
+
+        <div id="control">
+            <div id="pour">
+                <i class="fa-solid fa-droplet"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div> 
+        </div>
+</body>
+</html>

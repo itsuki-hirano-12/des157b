@@ -1,0 +1,104 @@
+* {
+    background-color: rgb(210, 245, 245);
+}
+
+body.small {
+    max-width: 1200px;
+    max-height: 750px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    gap: 20px;
+}
+
+body.full {
+    /* display: block; */
+    width: 100vw;
+    height: 100vh;
+}
+
+/* video styling */
+
+video {
+    /* position: absolute; */
+    box-sizing: border-box;
+    filter: brightness(80%);
+    /* min-width: 100%; */
+    
+}
+
+body.small video {
+    flex: 3;
+    width: 800px;
+    height: auto;
+    border: 5px aquamarine solid;
+}
+
+body.full video {
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: none;
+    width: 100%;
+    height: auto;
+    /* height: 100%; */
+    /* min-width: 100%;
+    min-height: 100%; */
+}
+
+.hidden {
+    display: none;
+    flex: 0;
+}
+
+/* control panel */
+
+#control div {
+    display: grid;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(15, 71, 71);
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: aquamarine ;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(17, 33, 17) ;
+}
+
+#control div:hover {
+    color: azure;
+    background-color: darkcyan;
+}
+
+body.small #control {
+    flex: 1;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+body.small #pour {
+    grid-column: span 2;
+    margin-bottom:30px ;
+    height: 80px;
+}
+
+body.full #control {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100px;
+    gap: 10px;
+    background: none;
+}
+
+.fa-solid {
+    /* background-color: rgb(15, 71, 71); */
+    background: none;
+}
+
