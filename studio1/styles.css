@@ -2,6 +2,10 @@
     background-color: rgb(210, 245, 245);
 }
 
+body.small section {
+    position: relative;
+}
+
 body.small {
     max-width: 1200px;
     max-height: 750px;
@@ -50,7 +54,7 @@ body.full video {
 
 .hidden {
     display: none;
-    flex: 0;
+    /* flex: 0; */
 }
 
 /* control panel */
@@ -71,6 +75,10 @@ body.full video {
 #control div:hover {
     color: azure;
     background-color: darkcyan;
+}
+
+#control div:hover .fa-solid {
+    transform: scale(1.2);
 }
 
 body.small #control {
@@ -100,5 +108,45 @@ body.full #control {
 .fa-solid {
     /* background-color: rgb(15, 71, 71); */
     background: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* text */
+p {
+    position: absolute;
+    /* left: 68%; */
+    top: 45%;
+    background: none;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    background:rgba(245, 245, 245, 0.614);
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    /* display: block; */
+}
+
+.hide {
+    transform: translateX(-100%);
+}
+
+.onScreen {
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+body.full p {
+    font-size: 3em;
+}
+
+article {
+    position: absolute;
+    height: 100%;
+    left: 68%;
+    top: 0;
+    background: none;
+    width: 30%;
+    overflow: hidden;
 }
 
