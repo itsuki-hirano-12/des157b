@@ -1,0 +1,50 @@
+{
+    "point1": {
+        "time": "8:00 AM",
+        "distance": 0,
+        "total": 0,
+        "action": "woke up"
+    },
+    "point2": {
+        "time": "10:00 AM",
+        "distance": 1.8,
+        "total": 1.8,
+        "action": "went on a walk"
+    },
+    "point3": {
+        "time": "12:00 PM",
+        "distance": 0.2,
+        "total": 2.0,
+        "action": "took out trash, made lunch, etc."
+    },
+    "point4": {
+        "time": "1:00 PM",
+        "distance": 1.8,
+        "total": 3.8,
+        "action": "biked to my afternoon class"
+    },
+    "point5": {
+        "time": "2:00 PM",
+        "distance": 0,
+        "total": 3.8,
+        "action": "sat in lecture (totally paying attention)"
+    },
+    "point6": {
+        "time": "3:30 PM",
+        "distance": 1.1,
+        "total": 4.9,
+        "action": "walked downtown for groceries"
+    },
+    "point7": {
+        "time": "4:00 PM",
+        "distance": 3.7,
+        "total": 8.6,
+        "action": "took the bus back home because it started raining"
+    },
+    "point8": {
+        "time": "5:00 PM",
+        "distance": 0,
+        "total": 8.6,
+        "action": "am back in my room"
+    }
+}
