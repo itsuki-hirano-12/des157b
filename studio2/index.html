@@ -16,7 +16,16 @@
 <body>
     
     <main>
-        <section></section>
+        <section>
+            <img src="images/map.svg" alt="map" id="map" class="map0">
+            <div id="routes">
+                <!-- <img src="images/route1.svg" alt="first route" id="firstMotion"> -->
+                <!-- <img src="images/route2.svg" alt="second route" id="secondMotion"> -->
+                <!-- <img src="images/route3.svg" alt="third route" id="thirdMotion"> -->
+                <!-- <img src="images/route4.svg" alt="fourth route" id="fourthMotion">
+                <img src="images/final.svg" alt="final summary" id="routeSummary"> -->
+            </div>
+        </section>
     
         <article>
             <h1>8:00 AM</h1>
@@ -27,7 +36,7 @@
             <p id="distance">Distance traveled: 0 Miles</p>
 
             <div id="buttons">
-                <button id="back" class="dim">Back</button>
+                <button id="back" class="hidden">Back</button>
                 <button id="next" class="buttonOn">Next</button>
             </div>
 
@@ -35,9 +44,14 @@
         </article>
 
         <div id="total">
-            <p>Total Distance traveled: 0 Miles</p>
+            <p>Total Distance Traveled: 0 Miles</p>
             <div id="bar">
-                <div class=""></div>
+                <div id="route1" class="routeBar"></div>
+                <div id="misc" class="routeBar"></div>
+                <div id="route2" class="routeBar"></div>
+                <div id="route3" class="routeBar"></div>
+                <div id="route4" class="routeBar"></div>
+                <div id="invis" class="routeBar"></div>
             </div>
         </div>
     </main>

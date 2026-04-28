@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3974.34 2310.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c7dfef;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1409.04,599.51l-.26,134.1h221.06v343.34c5.71,30.33,17.86,77.33,46.89,127.23,48.89,84.06,101.73,100.8,139.3,171.25,18.65,34.97,37.99,91.54,28.53,178.98,32.71,68.54,65.42,137.08,98.12,205.62,130.9,3.1,261.8,6.2,392.71,9.3"/>
+</svg>
