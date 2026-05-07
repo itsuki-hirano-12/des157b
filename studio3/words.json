@@ -1,0 +1,36 @@
+[{
+        "word": "こんにちは",
+        "translate": "Hello"
+    },
+    {
+        "word": "さようなら",
+        "translate": "Good Bye"
+    }, {
+        "word": "空",
+        "translate": "Sky"
+    }, {
+        "word": "晩ご飯",
+        "translate": "Dinner"
+    }, {
+        "word": "パソコン",
+        "translate": "Computer"
+    }, {
+        "word": "朝",
+        "translate": "Morning"
+    }, {
+        "word": "アニメ",
+        "translate": "Anime"
+    }, {
+        "word": "空想",
+        "translate": "Fantasy"
+    }, {
+        "word": "青",
+        "translate": "Blue"
+    }, {
+        "word": "景色",
+        "translate": "Scenery"
+    }, {
+        "word": "こころ",
+        "translate": "Heart"
+    }
+]
