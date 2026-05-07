@@ -1,15 +1,24 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #303030;
     color: whitesmoke;
     font-family: "Krub", sans-serif;
     font-weight: 500;
+    padding: 0;
+    margin: 0;
 }
 
 #container {
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
     width: 1200px;
     height: 750px;
+    padding: 0;
+    position: relative;
 }
 
 #words {
@@ -17,12 +26,19 @@ body {
     font-weight: 300;
     font-size: 28px;
     margin-top: 20px;
+    box-sizing: border-box;
+    min-height: 480px;
+    max-height: 480px;
+    overflow-y: auto;
+    /* background-color: #4d4d4d; */
+    padding: 10px;
+    scrollbar-color: #4d4d4d #303030;
 }
 
 .word {
     display: block;
-    /* height: 1.6em; */
-    margin: 10px;
+    line-height: 1.8em;
+    /* margin: 10px 0; */
     text-align: center;
 }
 
@@ -155,3 +171,36 @@ nav {
     color: #303030;
 }
 
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    display: block;
+    flex: 1;
+    /* text-align: center; */
+}
+
+footer ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    /* text-align: center; */
+    padding: 5px;
+}
+
+footer ul li a:hover {
+    color: aquamarine;
+}
