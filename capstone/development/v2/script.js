@@ -59,12 +59,12 @@
     function switchDialogue(){
         line.innerHTML = 'This is all I have right now'
 
-        // console.log('switch dialogue');
-        // dialogueNum++;
+        console.log('switch dialogue');
+        dialogueNum++;
 
-        // dialogueID = `${section}${dialogueNum}`;
+        dialogueID = `${section}${dialogueNum}`;
 
-        // console.log(dialogueID)
+        console.log(dialogueID);
 
         // chara.src = `images/${dialogues[dialogueID].char}.jpg`;
         // line.innerHTML = dialogues[dialogueID].script;
