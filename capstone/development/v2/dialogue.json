@@ -1,6 +1,14 @@
-[{
-        "id": "entry1",
+{
+    "entry1": {
         "char": "orca",
         "script": "Welcome to Pangaea! I'm O.R.C.A, and I will be your virtual assistant. I have been informed about your mission, so I will guide you through and introduce you to some users."
+    },   
+    "entry2": {
+        "char": "orca",
+        "script": "These users are all located in Japan, but don't worry! Everything they say will be translated in real time!"
+    },
+    "entry3": {
+        "char": "orca",
+        "script": "Let's start with this user"
     }
-]
+}
