@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Final Version</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/dea98f1693.js" crossorigin="anonymous"></script>
+    
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js"></script>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="boarding" class="on">
+            <h1>Pangaea</h1>
+
+            <p id="intro">This is year 20XX, a new social media platform has been popularized.<br>Pangaea allows people around the world to virtually connect without language barriers.</p>
+
+            <!-- <div id="start" class="btn"><p>- START -</p></div> -->
+            <form>
+                <label for="name">Enter Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <input type="submit" value="- START -" id="submit">
+            </form>
+        </div>
+
+        <div id="letter" class="off">
+            <p>Hello Detective,<br><br>We received intel about a potential terrorism that could disrupt global networks. We are in search of a few people with important information that might be able to help us stop this. We need you to dive into Pangaea and help identify one of these people. We have a list of Pangaea users we believe to be our target, and we want you to talk to these users and match their identity with our target.
+            </p>
+
+            <div id="avatar">
+                <p>Please use this avatar that we prepared for you.</p>
+                <img src="images/jelly.jpg">
+            </div>
+
+            <div id="lbtn">
+                <div id="t-prof" class="btn">View Target Profile</div>
+
+                <div id="enter">Enter Pangaea</div>
+            </div>
+        </div>
+
+        <div id="view-target" class="off">
+            <h2>Target Profile</h2>
+
+            <div class="prof">
+                <div class="general">
+                    <div class="image"></div>
+
+                    <ul>
+                        <li class="name">Hoshi</li>
+                        <li>Age: 24</li>
+                        <li>Gender: Male</li>
+                        <li>Location: Tokyo, Japan</li>
+                    </ul>
+                </div>
+
+                <ul class="notes">
+                    <li>Born in Tokyo</li>
+                    <li>Whereabouts unknown after graduating college</li>
+                    <li>Studied abroad in the US for a short time</li>
+                </ul>     
+            </div>    
+        
+            <div id="close" class="btn">Close</div>
+        </div>
+
+        <div id='dialogue' class="off">
+            <div id="chara">
+                <p id="charaName">orca</p>
+                <img src="images/orca.jpg">
+            </div>
+
+            <div id="speech">
+                <p class="split">Welcome to Pangaea! I'm O.R.C.A, and I will be your virtual assistant. I have been informed about your mission, so I will guide you through and introduce you to some users.</p>
+
+                <div id="options" class="off">
+                    <div id="dialogue1" class="active">
+                        <p>Ask about Pangaea</p>
+                    </div>
+                    <div id="dialogue2" class="active">
+                        <p>Ask for a travel recommendation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn" id="next">Next</div>
+            
+        </div>
+
+        <div id="interaction" class="off">
+            <div id="check">
+                <i class="fa-solid fa-clipboard-list"></i>
+            </div>
+
+            <div id="chara-container">
+                <img src="images/octo.svg" alt="character image" id="full-chara">
+
+                <div class="off" id="analysis1">
+
+                </div>
+                <div class="off" id="analysis2">
+
+                </div>
+            </div>
+            
+
+            <div class="prof">
+                <div class="general">
+                    <div class="image">
+                        <img src="images/octo.jpg" id="profImage">
+                    </div>
+
+                    <ul>
+                        <li class="name" id="profName">Octo</li>
+                        <li id="profAge">Age: ???</li>
+                        <li id="profGender">Gender: ???</li>
+                        <li id="profLoc">Location: ???</li>
+                    </ul>
+                </div>
+
+                <ul class="notes" id="profNotes">
+                    
+                </ul>     
+            </div>    
+        </div>
+
+        <div id="viewClues" class="off">
+            <div id="cluesContainer">
+                <div id="target">
+                    <div class="prof">
+                        <div class="general">
+                            <div class="image"></div>
+
+                            <ul>
+                                <li class="name">Target: Hoshi</li>
+                                <li>Age: 24</li>
+                                <li>Gender: Male</li>
+                                <li>Location: Tokyo, Japan</li>
+                            </ul>
+                        </div>
+
+                        <ul class="notes">
+                            <li>Born in Tokyo</li>
+                            <li>Whereabouts unknown after graduating college</li>
+                            <li>Studied abroad in the US for a short time</li>
+                        </ul>     
+                    </div>    
+                </div>
+
+                <div id="clues">
+                    <div  id="left">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    
+                    <div class="prof">
+                        <div class="general">
+                            <div class="image">
+                                <img src="images/octo.jpg" id="clueImage">
+                            </div>
+
+                            <ul>
+                                <li class="name" id="clueName">Name: ???</li>
+                                <li id="clueAge">Age: ???</li>
+                                <li id="clueGender">Gender: ???</li>
+                                <li id="clueLocation">Location: ???</li>
+                            </ul>
+                        </div>
+
+                        <ul class="notes" id="clueNotes">
+                        </ul>     
+                    </div>
+
+                    <div id="right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>    
+                </div>
+
+                
+            </div>
+            <div id="closeClues" class="btn">Close</div>
+        </div>
+
+        <div id="ending" class="off">
+            <p>A few days later...</p>
+        </div>
+    </div>
+</body>
+</html>
