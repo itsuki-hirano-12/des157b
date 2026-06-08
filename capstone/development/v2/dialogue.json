@@ -1,14 +1,182 @@
-{
-    "entry1": {
+[
+    {   "id": "entry0",
         "char": "orca",
         "script": "Welcome to Pangaea! I'm O.R.C.A, and I will be your virtual assistant. I have been informed about your mission, so I will guide you through and introduce you to some users."
     },   
-    "entry2": {
+    {   "id": "entry1",
         "char": "orca",
         "script": "These users are all located in Japan, but don't worry! Everything they say will be translated in real time!"
     },
-    "entry3": {
+    {   "id": "octo0",
         "char": "orca",
         "script": "Let's start with this user"
+    }, {
+        "id": "octoone1",
+        "char": "octo",
+        "script": "<span>I usually use Pangaea for work.</span> We have been communicating with our partners around the world using Pangaea."
+    }, {
+        "id": "octoone2",
+        "char": "jelly",
+        "script": "Do you find Pangaea helpful?"
+    }, {
+        "id": "octoone3",
+        "char": "octo",
+        "script": "<span>I only joined the company recently</span> so I can't say too much about how impactful the change was, but not having to worry about language differences is really nice."
+    }, {
+        "id": "octotwo1",
+        "char": "octo",
+        "script": "I would recommend Kyoto. It's beautiful, and a nice place to start with if you haven't visited Japan before."
+    }, {
+        "id": "octotwo2",
+        "char": "jelly",
+        "script": "I've heard very good things about Kyoto, do you visit there often?"
+    }, {
+        "id": "octotwo3",
+        "char": "octo",
+        "script": "<span>I have relatives that live there so I visit every now and then.</span>"
+    }, {
+        "id": "saury0",
+        "char": "orca",
+        "script": "Let's move on to the next user"
+    }, {
+        "id": "saury1",
+        "char": "orca",
+        "script": "Let's talk to this user now"
+    }, {
+        "id": "sauryone1",
+        "char": "saury",
+        "script": "I play a lot of video games here. It's really cool to chat with people from around the world."
+    }, {
+        "id": "sauryone2",
+        "char": "jelly",
+        "script": "I heard Pangaea is a really popular platform for young gamers now."
+    }, {
+        "id": "sauryone3",
+        "char": "saury",
+        "script": "Yeah, all my friends <span>at school</span> use Pangaea too."
+    }, {
+        "id": "saurytwo1",
+        "char": "saury",
+        "script": "You should <span>come to Tokyo!</span>"
+    }, {
+        "id": "saurytwo2",
+        "char": "jelly",
+        "script": "Tokyo is definitely under my radar."
+    }, {
+        "id": "saurytwo3",
+        "char": "saury",
+        "script": "There's so much things to do here, you won't be bored."
+    }, {
+        "id": "starfish0",
+        "char": "orca",
+        "script": "Let's move on to the next user"
+    }, {
+        "id": "starfish1",
+        "char": "orca",
+        "script": "Let's talk to this user now"
+    }, {
+        "id": "starfishone1",
+        "char": "starfish",
+        "script": "I come here to hang out and chat with friends."
+    }, {
+        "id": "starfishone2",
+        "char": "jelly",
+        "script": "Is there a specific reason you decided to use Pangaea?"
+    }, {
+        "id": "starfishone3",
+        "char": "starfish",
+        "script": "I have friends I met when <span>I was studying abroad.</span> My English isn't too good because I was only there for a few months."
+    }, {
+        "id": "starfishtwo1",
+        "char": "starfish",
+        "script": "You should try <span>Okinawa</span>"
+    }, {
+        "id": "starfishtwo2",
+        "char": "jelly",
+        "script": "I've heard it's really hot there."
+    }, {
+        "id": "starfishtwo3",
+        "char": "starfish",
+        "script": "<span>I went there once when I was still a student</span> so I can't imagine how it is to live there. It was very hot, but it was a nice place to visit."
+    }, {
+        "id": "bream0",
+        "char": "orca",
+        "script": "Let's move on to the last user"
+    }, {
+        "id": "bream1",
+        "char": "orca",
+        "script": "Let's talk to this user now."
+    }, {
+        "id": "breamone1",
+        "char": "bream",
+        "script": "I often come here to play video games after work"
+    }, {
+        "id": "breamone2",
+        "char": "jelly",
+        "script": "Do you spend a lot of time here?"
+    }, {
+        "id": "breamone3",
+        "char": "bream",
+        "script": "I do, <span>although not as much as I used to when I was a student.</span>"
+    }, {
+        "id": "breamtwo1",
+        "char": "bream",
+        "script": "Well you won't have a bad time in Tokyo, there's anything here."
+    }, {
+        "id": "breamtwo2",
+        "char": "jelly",
+        "script": "You know a lot about the Tokyo?"
+    }, {
+        "id": "breamtwo3",
+        "char": "bream",
+        "script": "Well my workplace <span>is in Tokyo.</span>"
+    }, {
+        "id": "bridge0",
+        "char": "orca",
+        "script": "That was the last one, let's check the information you've gathered so far."
+    }, {
+        "id": "bridge1",
+        "char": "jelly",
+        "script": "We can narrow down to three, but it looks like we still need more information."
+    }, {
+        "id": "bridge2",
+        "char": "orca",
+        "script": "Would you like to talk to them again?"
+    }, {
+        "id": "bridge3",
+        "char": "dolphin",
+        "script": "Hold on a second!"
+    }, {
+        "id": "bridge4",
+        "char": "dolphin",
+        "script": "Sorry, allow me to introduce myself. I'm D.O.L.P.H.I.N, a virtual assistant designed to help communicate at a deeper level."
+    }, {
+        "id": "bridge5",
+        "char": "dolphin",
+        "script": "You've been having conversations in a translated language, but there may be information you've missed hidden under the translations!"
+    }, {
+        "id": "bridge6",
+        "char": "dolphin",
+        "script": "Let's look back on some of the conversations you've had."
+    }, {
+        "id": "end0",
+        "char": "dolphin",
+        "script": "Their first person pronoun 私 is either a female or gender neutral pronoun. Based on their language, Octo seems to be a female user."
+    }, {
+        "id": "end1",
+        "char": "dolphin",
+        "script": "Their first person pronoun 俺 is generally a male pronoun. Starfish is likely a male user."
+    }, {
+        "id": "end2",
+        "char": "dolphin",
+        "script": "Bream uses a western dialect of Japanese. Although they seem to currently live in Tokyo, they are likely from a western region of Japan."
+    }, {
+        "id": "end3",
+        "char": "dolphin",
+        "script": "Let's check on the information you have available now."
+    }, {
+        "id": "end4",
+        "char": "jelly",
+        "script": "Seems like there's only one that fits the criteria. The person we're looking for is... Starfish."
     }
-}
+]

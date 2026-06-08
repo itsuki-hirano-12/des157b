@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/dea98f1693.js" crossorigin="anonymous"></script>
     
     <link href="styles.css" rel="stylesheet">
 
@@ -15,7 +17,7 @@
 </head>
 <body>
     <div id="container">
-        <div id="boarding">
+        <div id="boarding" class="on">
             <h1>Pangaea</h1>
 
             <p id="intro">This is year 20XX, a new social media platform has been popularized.<br>Pangaea allows people around the world to virtually connect without language barriers.</p>
@@ -62,24 +64,115 @@
         <div id='dialogue' class="off">
             <div id="chara"><img src="images/orca.jpg"></div>
 
-            <p>Welcome to Pangaea! I'm O.R.C.A, and I will be your virtual assistant. I have been informed about your mission, so I will guide you through and introduce you to some users.</p>
+            <div id="speech">
+                <p>Welcome to Pangaea! I'm O.R.C.A, and I will be your virtual assistant. I have been informed about your mission, so I will guide you through and introduce you to some users.</p>
+
+                <div id="options" class="off">
+                    <div id="dialogue1" class="active">
+                        <p>Ask about Pangaea</p>
+                    </div>
+                    <div id="dialogue2" class="active">
+                        <p>Ask for a travel recommendation</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="btn" id="next">Next</div>
+            
         </div>
 
-            <div id="usertest">
-                <article>
-                    <h2>User testing</h2>
-
-                    <p>Hi! This is a narrative-based project imagining a future where technology removes language barriers.<br>The main goal for this user testing is to see if the natural user flow of this project is clear.</p>
-
-                    <p>Your main task is to simply to start the project and see if you can reach the current ending without directions.</p>
-
-                    <p>You don't need to read any of the texts deeply, but please skim through and check if there's anything that is confusing</p>
-
-                    <div id="beginTest" class="btn">click here to begin</div>
-                </article>
+        <div id="interaction" class="off">
+            <div id="check">
+                <i class="fa-solid fa-clipboard-list"></i>
             </div>
+
+            <div id="chara-container">
+                <img src="images/octo.svg" alt="character image" id="full-chara" class="off">
+
+                <div class="off" id="analysis1">
+
+                </div>
+                <div class="off" id="analysis2">
+
+                </div>
+            </div>
+            
+
+            <div class="prof">
+                <div class="general">
+                    <div class="image">
+                        <img src="images/octo.jpg" id="profImage">
+                    </div>
+
+                    <ul>
+                        <li class="name" id="profName">Octo</li>
+                        <li id="profAge">Age: ???</li>
+                        <li id="profGender">Gender: ???</li>
+                        <li id="profLoc">Location: ???</li>
+                    </ul>
+                </div>
+
+                <ul class="notes" id="profNotes">
+                    
+                </ul>     
+            </div>    
+        </div>
+
+        <div id="viewClues" class="off">
+            <div id="cluesContainer">
+                <div id="target">
+                    <div class="prof">
+                        <div class="general">
+                            <div class="image"></div>
+
+                            <ul>
+                                <li class="name">Target: Hoshi</li>
+                                <li>Age: 24</li>
+                                <li>Gender: Male</li>
+                                <li>Location: Tokyo, Japan</li>
+                            </ul>
+                        </div>
+
+                        <ul class="notes">
+                            <li>Born in Tokyo</li>
+                            <li>Whereabouts unknown after graduating college</li>
+                            <li>Studied abroad in the US for a short time</li>
+                        </ul>     
+                    </div>    
+                </div>
+
+                <div id="clues">
+                    <div  id="left">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    
+                    <div class="prof">
+                        <div class="general">
+                            <div class="image">
+                                <img src="images/octo.jpg" id="clueImage">
+                            </div>
+
+                            <ul>
+                                <li class="name" id="clueName">Name: ???</li>
+                                <li id="clueAge">Age: ???</li>
+                                <li id="clueGender">Gender: ???</li>
+                                <li id="clueLocation">Location: ???</li>
+                            </ul>
+                        </div>
+
+                        <ul class="notes" id="clueNotes">
+                        </ul>     
+                    </div>
+
+                    <div id="right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>    
+                </div>
+
+                
+            </div>
+            <div id="closeClues" class="btn">Close</div>
+        </div>
     </div>
 </body>
 </html>
